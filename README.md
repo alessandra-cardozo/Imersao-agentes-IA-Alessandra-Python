@@ -92,7 +92,7 @@ Este projeto demonstra como realizar **reconhecimento facial** em imagens usando
    from google.colab import files
    uploaded = files.upload()
 
-2.Carregue e exiba a imagem:
+2. Carregue e exiba a imagem:
 
 import cv2
 import matplotlib.pyplot as plt
@@ -104,7 +104,7 @@ plt.imshow(img_rgb)
 plt.axis('off')
 plt.show()
 
-3.Baixe o classificador Haar Cascade e detecte rostos:
+3. Baixe o classificador Haar Cascade e detecte rostos:
 
 cascade_url = "https://github.com/opencv/opencv/raw/master/data/haarcascades/haarcascade_frontalface_default.xml"
 cascade_path = "haarcascade_frontalface_default.xml"
@@ -125,7 +125,7 @@ plt.axis('off')
 plt.title(f"{len(faces)} rosto(s) detectado(s)")
 plt.show()
 
-4.(Opcional) Salve a imagem com os rostos detectados:
+4. (Opcional) Salve a imagem com os rostos detectados:
 
 cv2.imwrite("rostos_detectados.jpg", img)
 
