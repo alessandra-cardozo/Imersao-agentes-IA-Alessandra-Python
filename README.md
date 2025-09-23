@@ -53,7 +53,7 @@ Este repositório reúne os projetos desenvolvidos por mim, Alessandra, durante 
 - Pandas
 - Lógica de agentes e simulações
 
----
+
 
 ## 💬 Sobre Mim
 
